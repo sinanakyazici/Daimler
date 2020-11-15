@@ -1,0 +1,23 @@
+version: '3.4'
+
+networks:
+  new:
+services:
+  Daimler.ApiGateway:
+    image: daimlerapigateway:latest
+    build:
+      context: .
+      dockerfile: src/Daimler.ApiGateway/Dockerfile
+    networks:
+      new:
+        aliases: 
+          - daimlerapigateway
+  Daimler.Api:
+    image: daimlerapi:latest
+    build:
+      context: .
+      dockerfile: src/Daimler.Api/Dockerfile
+    networks:
+      new:
+        aliases: 
+          - daimlerapi

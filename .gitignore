@@ -1,0 +1,72 @@
+﻿# Logs
+logs
+*.logs 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+
+
+# dotenv environment variables file
+.env
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+.DS_Store
+
+**/bin
+**/obj
+**/dist
+**Logs*.txt
+**/Logs
+**/logs
+**/Log
+**/log
+**/mongo-volume
+
+.vs
+
+**/.vs
+**/.vscode
+
+.DS_Store
+node_modules
+/dist
+
+slnx.sqlite
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj.user
+*.sw?
+*.csproj.user
+*.dcproj.user
+*.njsproj.user
+*.DotSettings.user
+*.dotsettings.user

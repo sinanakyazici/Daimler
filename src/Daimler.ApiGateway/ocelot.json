@@ -1,0 +1,9 @@
+{
+  "DangerousAcceptAnyServerCertificateValidator": false,
+  "HttpHandlerOptions": {
+    "UseTracing": true
+  },
+  "ReRouteIsCaseSensitive": false,
+  "ReRoutes": [],
+  "Routes": []
+}
